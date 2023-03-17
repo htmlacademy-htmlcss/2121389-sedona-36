@@ -22,14 +22,14 @@ body {
   background-color: #F2F2F2;
 }
 
-/* Шапка */
+/* Header */
 
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
 }
 
-/* Навигация */
+/* Navigation */
 
 .navigation-link {
   font-size: 20px;
@@ -41,7 +41,14 @@ body {
   text-transform: capitalize;
 }
 
-/* Преимущества */
+/* Hero */
+
+.hero {
+  background-image: url(../images/background-vector.svg);
+  background-repeat: no-repeat;
+}
+
+/* Advantages */
 
 .advantages-main-title {
   font-weight: 700;
@@ -91,7 +98,7 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-/* Услуги */
+/* Services */
 
 .services {
   text-align: center;
@@ -129,7 +136,7 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
-/* Поиск отеля */
+/* Hotel search */
 
 .hotel-search {
   background-color: #FFFFFF;
@@ -159,7 +166,7 @@ body {
   background-color: #756157;
 }
 
-/* Рассылка */
+/* Newletter */
 
 .newsletter {
   background-color: #82b3d3;
@@ -199,7 +206,7 @@ body {
   color: #FFFFFF;
 }
 
-/* Подвал */
+/* Footer */
 
 .page-footer {
   background-color: #FFFFFF;
@@ -211,4 +218,157 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+}
+
+/* Inner header */
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs {
+  color: #ffffff
+}
+
+.breadcrumbs-link {
+  color: inherit;
+}
+
+/* Catalog */
+
+.inner-catalog-filter {
+  background-image: url(../images/catalog/catalog-background.jpg);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.control-label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.catalog-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.catalog-submit {
+  background-color: #82B3D3;
+}
+
+.catalog-reset {
+  background-color: transparent;
+}
+
+.inner-catalog {
+  background-color: #FFFFFF;
+}
+
+.select-result {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.product-card-type {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.product-card-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+}
+
+.product-card-button-more {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #756157;
+}
+
+.product-card-button-favorite {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.product-card-rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #F2F2F2;
+}
+
+/* Pagination */
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+.pagination-more {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Newsletter inner */
+
+.newsletter-inner {
+  background-color: #FFFFFF;
 }
